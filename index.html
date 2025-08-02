@@ -2,10 +2,44 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Influencer Handle</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', sans-serif; margin: 0; background: #f9f9f9; color: #333; }
+    header { background: #000; color: white; padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; }
+    nav a { color: white; margin-left: 1rem; text-decoration: none; }
+    .hero { text-align: center; padding: 3rem 2rem; background: white; }
+    .categories { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1rem; padding: 2rem; }
+    .category-card { background: white; padding: 1rem; border-radius: 8px; box-shadow: 0 0 8px rgba(0,0,0,0.1); text-align: center; }
+    footer { background: #000; color: white; text-align: center; padding: 1rem; }
+  </style>
 </head>
 <body>
-  <h1>Welcome to Influencer Handle</h1>
-  <p>Your platform to discover creators by location and niche.</p>
+  <header>
+    <h1>Influencer Handle</h1>
+    <nav>
+      <a href="#">Login</a>
+      <a href="#">Sign Up</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Find Creators That Match Your Brand</h2>
+    <p>Discover influencers and content creators by location, niche, and platform — all in one place.</p>
+  </section>
+
+  <section class="categories">
+    <div class="category-card">Fashion</div>
+    <div class="category-card">Food & Beverage</div>
+    <div class="category-card">Beauty</div>
+    <div class="category-card">Fitness</div>
+    <div class="category-card">Travel</div>
+    <div class="category-card">Tech</div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Influencer Handle. All rights reserved.</p>
+  </footer>
 </body>
 </html>
